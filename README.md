@@ -27,18 +27,14 @@ Staying true to the "S" in SMC, the calculator does have some limitations.
 Examples (Note: "->" is used to denote the result, and is not intended to be input to the calculator)
 
 
-​```
 
-6, 4, +, .        -> 10
+| Input | Result |
+|-------|--------|
+| 6, 4, +, . | 10 |
+| 5, 5, +, 5, +, . | 15 |
+| 4, 5, -, . | -1 |
+| 5, 0, / | ? (divide by zero, resets) |
+| + | $ (stack error, resets) |
 
-5, 5, +, 5, +, .  -> 15
-
-4, 5, -, .        -> -1
-
-5, 0, /           -> ? (divide by zero, resets)
-
-+                 -> $ (stack error, resets)
-  
-​```
 
 Note: each value must be confirmed with enter before the next input. For chained operations like 5 + 5 + 5, apply the operator after every two numbers rather than at the end.
