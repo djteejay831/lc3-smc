@@ -23,4 +23,4 @@ Once my code began to near completion, it was relatively lengthy. It was then th
 
 Known Limitations
 
-For a full list of known limitations, see the [README](../README.md).
+For a full list of known limitations, see the [README](https://github.com/djteejay831/lc3-smc/blob/main/README.md).
