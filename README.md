@@ -24,12 +24,21 @@ Staying true to the "S" in SMC, the calculator does have some limitations.
 - 4 digits per number max. Input limited to 0-9999, entering a 5th digit will trigger the "!" prompt and reset the calculator.
 - No way to clear the stack without reset. An error must occur to reset.
 
-Examples
+Examples (Note: "->" is used to denote the result, and is not intended to be input to the calculator)
+
+
+​```
 
 6, 4, +, .        -> 10
+
 5, 5, +, 5, +, .  -> 15
+
 4, 5, -, .        -> -1
+
 5, 0, /           -> ? (divide by zero, resets)
+
 +                 -> $ (stack error, resets)
+  
+​```
 
 Note: each value must be confirmed with enter before the next input. For chained operations like 5 + 5 + 5, apply the operator after every two numbers rather than at the end.
