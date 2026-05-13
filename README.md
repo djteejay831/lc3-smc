@@ -25,9 +25,11 @@ Staying true to the "S" in SMC, the calculator does have some limitations.
 - No way to clear the stack without reset. An error must occur to reset.
 
 Examples
+'''
 6, 4, +, .        -> 10
 5, 5, +, 5, +, .  -> 15
 4, 5, -, .        -> -1
 5, 0, /           -> ? (divide by zero, resets)
 +                 -> $ (stack error, resets)
+'''
 Note: each value must be confirmed with enter before the next input. For chained operations like 5 + 5 + 5, apply the operator after every two numbers rather than at the end.
